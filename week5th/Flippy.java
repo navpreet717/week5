@@ -18,7 +18,7 @@ public class Flippy {
 		public static void calculateDistance(double g,int t){
 			double distance=0.5*g*t;
 			System.out.println("distance travelled:"+distance);}
-		//FUNCT
+		//FUNCTion poverloading
 			public static void calculateDistance(String name,double g,int t){
 				double distance=0.5*g*t;
 				System.out.println("distance travelled2:"+name+":"+distance);
