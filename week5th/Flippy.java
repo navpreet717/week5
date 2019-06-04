@@ -4,6 +4,7 @@ public class Flippy {
 
 	public static void main(String[] args) {
 		 calculateDistance(9.8,10);//call the function
+		 calculateDistance("abc",1.2,9);
 		
 	}
 		// TODO Auto-generated method stub
@@ -16,8 +17,11 @@ public class Flippy {
 		
 		public static void calculateDistance(double g,int t){
 			double distance=0.5*g*t;
-			System.out.println("distance travelled:"+distance);
-			
+			System.out.println("distance travelled:"+distance);}
+		//FUNCT
+			public static void calculateDistance(String name,double g,int t){
+				double distance=0.5*g*t;
+				System.out.println("distance travelled2:"+name+":"+distance);
 		}
 		
 
